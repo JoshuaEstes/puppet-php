@@ -28,6 +28,10 @@ to install puppet modules see [github.com/JoshuaEstes/ComposerInstallerPuppet](h
 
     class { 'php': }
 
+# Installing PHP Modules
+
+    class { 'php::mod::apc': }
+
 # License
 
 Copyright (C) 2013 Joshua Estes

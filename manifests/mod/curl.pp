@@ -2,10 +2,10 @@
 #
 #
 #
-class php::mod::intl
+class php::mod::curl
 {
 
-    package { 'php5-intl':
+    package { 'php5-curl'
         ensure => present,
     }
 }
