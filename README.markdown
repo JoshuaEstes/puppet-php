@@ -18,6 +18,10 @@ to install puppet modules see [github.com/JoshuaEstes/ComposerInstallerPuppet](h
         ...
         "joshuaestes/puppet-php": "*"
     },
+    "extra": {
+        ...
+        "puppet-modules-path": "app/Resources/puppet/modules"
+    }
     ...
 
 # Basic Usage
