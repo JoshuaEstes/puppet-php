@@ -20,7 +20,9 @@ to install puppet modules see [github.com/JoshuaEstes/ComposerInstallerPuppet](h
     },
     "extra": {
         ...
-        "puppet-modules-path": "app/Resources/puppet/modules"
+        "puppet": {
+            "modules_path": "app/Resources/puppet/modules"
+        }
     },
     ...
 
